@@ -1,4 +1,4 @@
-# BingWallpaper
+# BingWallpaper [![CircleCI](https://circleci.com/gh/BingHomepage/BingWallpaper.GNOME.svg?style=svg)](https://circleci.com/gh/BingHomepage/BingWallpaper.GNOME)
 
 Fetches and applies the image of the day from Bing as the wallpaper for the GNOME environment.
 
