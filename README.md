@@ -29,9 +29,9 @@ go build
 ```
 
 ## Moving executable to `bin`
-
+Requires `sudo`
 ```bash
-mv ./BingWallpaper /usr/bin
+sudo mv ./BingWallpaper /usr/bin
 ```
 
 ## Running
@@ -41,5 +41,5 @@ To run the application, simply execute `BingWallpaper` with optional flag `-inte
 Default interval is 12h, meaning the wallpaper will be updated in every 12 hour.
 
 ```bash
-BingWallpaper -interval 12h30m &; disown;
+nohup BingWallpaper -interval 12h30m &; disown;
 ```
